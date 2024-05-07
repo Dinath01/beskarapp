@@ -31,7 +31,7 @@ class LandPage extends StatelessWidget {
               const SizedBox(
                 height: 25,
               ),
-              ButtonOne(onTap: () {}, child: Icon(Icons.arrow_forward))
+              ButtonOne(onTap: () => Navigator.pushNamed(context, '/shop_page' ), child: Icon(Icons.arrow_forward))
 
             ]),
           ),
