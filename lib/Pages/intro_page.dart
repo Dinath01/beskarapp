@@ -1,4 +1,5 @@
 import 'package:beskarapp/Pages/home_page.dart';
+import 'package:beskarapp/Pages/landing_page.dart';
 import 'package:flutter/material.dart';
 
 class IntroPage extends StatelessWidget {
@@ -13,7 +14,7 @@ class IntroPage extends StatelessWidget {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             Navigator.pushReplacement(
               context,
-              MaterialPageRoute(builder: (context) => HomePage()),
+              MaterialPageRoute(builder: (context) => LandPage()),
             );
           });
         }
